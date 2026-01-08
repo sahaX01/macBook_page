@@ -52,7 +52,7 @@ function ModelSwitcher({scale, isMobile}) {
   },[scale])
 
   const controlsConfig = {
-      snap:true,
+      snap:true, // auto return to main position
       speed:1,
       zoom:1,
       polar:[-Math.PI, Math.PI],   // Vertical Scroll
